@@ -99,8 +99,13 @@ with tab1:
     
     # Prediction button
     if st.button("🎯 Predict Rain Tomorrow", use_container_width=True, type="primary"):
-        # Prepare data for prediction
-        input_data = np.array([[temp_max, temp_min, precipitation]])
+        # Prepare data for prediction with proper feature names
+        input_df = pd.DataFrame({
+            'temp_max': [temp_max],
+            'temp_min': [temp_min],
+            'precipitation': [precipitation]
+        })
+        input_data = input_df[feature_columns]
         
         # Make prediction
         prediction = model.predict(input_data)
