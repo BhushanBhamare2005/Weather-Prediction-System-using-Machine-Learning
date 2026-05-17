@@ -208,48 +208,6 @@ train_test_split(X, y, test_size=0.2, random_state=42, stratify=y)
 - **Confusion Matrix:** Heatmap showing true positives, false positives, etc.
 - **Classification Report:** Precision, recall, F1-score for each class
 
-## 🐙 GitHub Upload Instructions
-
-1. Initialize git repository:
-   ```bash
-   git init
-   git add .
-   git commit -m "Initial commit: Weather Prediction ML project"
-   ```
-
-2. Push to GitHub:
-   ```bash
-   git remote add origin https://github.com/yourusername/weather-prediction-ml.git
-   git branch -M main
-   git push -u origin main
-   ```
-
-3. Files to include:
-   - ✅ `weather_prediction.ipynb`
-   - ✅ `app.py`
-   - ✅ `requirements.txt`
-   - ✅ `README.md`
-   - ✅ `seattle-weather.csv`
-   - ✅ `weather_model.pkl`
-   - ✅ `model_comparison.png`
-   - ✅ `.gitignore` (exclude venv, __pycache__)
-
-## 🌐 Streamlit Cloud Deployment
-
-### Steps to Deploy:
-
-1. **Push code to GitHub**
-   ```bash
-   git push origin main
-   ```
-
-2. **Go to [Streamlit Cloud](https://streamlit.io/cloud)**
-   - Sign in with GitHub
-   - Click "New app"
-   - Select repository, branch, and main file (`app.py`)
-   - Click "Deploy"
-
-3. **Share your deployed app URL**
 
 ## 📚 Key Learnings & Insights
 
@@ -275,22 +233,7 @@ Contributions are welcome! Areas for improvement:
 - [ ] Create regional models
 - [ ] Add time series forecasting
 
-## 📄 License
 
-This project is licensed under the MIT License - see LICENSE file for details.
-
-## 👨‍💻 Author
-
-**Your Name / Team Name**
-- GitHub: [@yourusername](https://github.com/yourusername)
-- Email: your.email@example.com
-
-## 📞 Support & Feedback
-
-For issues, questions, or suggestions:
-1. Open an issue on GitHub
-2. Create a discussion thread
-3. Contact via email
 
 ## 📖 References & Resources
 
